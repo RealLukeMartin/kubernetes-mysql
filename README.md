@@ -1,6 +1,6 @@
 # kubernetes-mysql
 
-#### Build an instance in GPC with
+#### Build an instance in GPC
 
 `gcloud compute disks create --size 200GB mysql-ddisk`
 
