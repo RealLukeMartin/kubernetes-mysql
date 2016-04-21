@@ -1,8 +1,10 @@
 # kubernetes-mysql
 
-#### Build an instance in GPC
+#### Build an EBS volume in AWS
 
-`gcloud compute disks create --size 200GB mysql-ddisk`
+`aws ec2 create-volume --availability-zone us-west-2a --size 30 --volume-type gp2`
+
+* Insert the volume id of your newly created ebs volume into your mysql.yaml
 
 #### Create mysql pod
 
